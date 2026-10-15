@@ -1,0 +1,38 @@
+{
+  "model_name": "RandomForestRegressor",
+  "n_estimators": 100,
+  "random_state": 42,
+  "features": {
+    "numerical": [
+      "year",
+      "area",
+      "fertilizer",
+      "pesticide"
+    ],
+    "categorical": [
+      "crop",
+      "season",
+      "state"
+    ],
+    "all_features": [
+      "year",
+      "area",
+      "fertilizer",
+      "pesticide",
+      "crop",
+      "season",
+      "state"
+    ]
+  },
+  "target": "yield",
+  "test_metrics": {
+    "RMSE": 115.8844022413493,
+    "MAE": 8.39563026684221,
+    "R2": 0.9832394826181373
+  },
+  "scikit_learn_version": "1.9.1",
+  "joblib_version": "1.6.0",
+  "serialized_at": "2026-10-15 12:55:20 UTC",
+  "training_samples": 15751,
+  "test_samples": 3938
+}
